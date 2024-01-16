@@ -1,0 +1,413 @@
+/* commissioner-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/commissioner-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/commissioner-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/commissioner-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100px;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  object-fit: cover;
+  display: flex;
+  display: inline;
+}
+body {
+  height: 100%;
+  font-family: "Commissioner", sans-serif;
+  color: #7a7a7a;
+  line-height: 38px;
+}
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1207px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 400px;
+  background-image: url("../imeg/Bitmap.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+.container {
+}
+.container-logo-img {
+  margin-left: 50px;
+}
+.sitinav {
+  display: flex;
+  gap: 38px;
+  padding-left: 800px;
+}
+.sitinav-list {
+}
+.sitinav-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+.header-wrap {
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.header2 {
+  width: 730px;
+  height: 269px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  display: flex;
+  margin-bottom: 24px;
+}
+.main-card-paragraf {
+  color: #000;
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+
+  padding-left: 120px;
+}
+.main-card-paragraf-text {
+  color: #7a7a7a;
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 112px;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.main-nav-back {
+  width: 204px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #3cb3ab;
+}
+.main-nav-back:hover {
+  background: #147a73;
+}
+.main-nav-bookmark {
+  width: 174px;
+  height: 56px;
+  border-radius: 33.5px;
+  background: #2f2f2f;
+  display: flex;
+  align-items: baseline;
+}
+
+.main-nav-back-text {
+  color: #fff;
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 17px;
+}
+.main-nav-bookmark-text {
+  font-family: "Commissioner", sans-serif;
+  color: #7a7a7a;
+  font-style: normal;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  color: #7a7a7a;
+}
+.statistica {
+  width: 730px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+  margin-bottom: 24px;
+}
+.statistica-ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 49px;
+}
+.statistica-namber {
+  color: #000;
+  font-family: "Commissioner", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+.statistica-text {
+  color: #7a7a7a;
+  font-family: "Commissioner", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+hr {
+  width: 1px;
+  height: 63px;
+  flex-shrink: 0;
+  opacity: 0.15;
+  background: #000;
+}
+.loading-hr {
+  width: 496px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+}
+.loading {
+  width: 496px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  opacity: 0.05;
+  background: #3cb3ab;
+  margin-left: 46px;
+  margin-top: 30px;
+}
+.content {
+  width: 730px;
+  height: 1197px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+h2 {
+  color: #000;
+  text-align: left;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 35px;
+  padding-left: 40px;
+}
+.text {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  width: 634px;
+  padding-left: 40px;
+  padding-top: 35px;
+  margin-bottom: 40px;
+}
+.content-small1 {
+  width: 634px;
+  height: 248px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+.content-paragraf {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.contnet-samll-paragraf {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-link {
+  color: #3cb3ab;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content-text {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 29px;
+}
+.content-samll-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.nuber {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+sup {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content-small-footer-blok {
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  background: #3cb3ab;
+}
+.content-link-footer {
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 32px;
+}
+.content-small1-sh {
+  width: 634px;
+  height: 248px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+.content-paragraf-sh {
+  color: #000;
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contnet-samll-paragraf-sh {
+}
+.text-link-sh {
+  color: #3cb3ab;
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content-text-sh {
+  color: #7a7a7a;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 29px;
+}
+.content-samll-footer-sh {
+}
+.nuber-sh {
+  color: #00000021;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content-small-footer-blok-sh {
+  width: 157px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 33.5px;
+  opacity: 0.5;
+  background: #2f2f2f;
+}
+.content-link-footer-sh {
+  color: #fff;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 32px;
+}
